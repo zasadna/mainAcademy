@@ -19,6 +19,7 @@ public class Task2IfElse {
             System.out.println(str2);
         } else {
             System.out.println(str3);
+
         }
     }
 }
