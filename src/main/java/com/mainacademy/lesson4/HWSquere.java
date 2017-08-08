@@ -35,7 +35,7 @@ public class HWSquere {
         this.color = color;
     }
 
-    public static void squere(int x) {
+    public static void calculateSquareSquere(int x) {
 
         int resS = x*x;
 

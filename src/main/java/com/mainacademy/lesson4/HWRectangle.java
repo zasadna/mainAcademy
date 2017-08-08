@@ -46,7 +46,7 @@ public class HWRectangle {
         this.color = color;
     }
 
-    public static void rectangle(int a, int b) {
+    public static void calculateSquareRectangle(int a, int b) {
         int resR = a*b;
 
         System.out.println("Площадь прямоугольник = "+resR);

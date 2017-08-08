@@ -1,7 +1,7 @@
 package com.mainacademy.lesson4;
 
-import static com.mainacademy.lesson4.HWRectangle.rectangle;
-import static com.mainacademy.lesson4.HWSquere.squere;
+import static com.mainacademy.lesson4.HWRectangle.calculateSquareRectangle;
+import static com.mainacademy.lesson4.HWSquere.calculateSquareSquere;
 
 /**
  * Created by Olga on 03.08.2017.
@@ -20,8 +20,8 @@ public class HWMain {
         int a = r2.getA();
         int b = r2.getB();
 
-        squere(x);
-        rectangle(a,b);
+        calculateSquareSquere(x);
+        calculateSquareRectangle(a,b);
     }
 
 }
